@@ -1,5 +1,5 @@
 # ZxcvbnPasswordValidator
-Realistic Symfony password strength validator based on Zxcvbn PHP 
+Realistic Symfony password strength validator based on Dropbox's zxcvbn project. 
 
 
 <h1 align="center">
