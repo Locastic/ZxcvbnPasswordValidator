@@ -4,19 +4,19 @@ Realistic Symfony password strength validator based on Dropbox's zxcvbn project.
 
 <h1 align="center">
     <a href="https://packagist.org/packages/locastic/zxcvbn-password-validator" title="License" target="_blank">
-        <img src="https://img.shields.io/packagist/l/locastic/sylius-ht-payway-plugin.svg" />
+        <img src="https://img.shields.io/packagist/l/locastic/zxcvbn-password-validator.svg" />
     </a>
     <a href="https://packagist.org/packages/locastic/zxcvbn-password-validator" title="Version" target="_blank">
-        <img src="https://img.shields.io/packagist/v/Locastic/sylius-ht-payway-plugin.svg" />
+        <img src="https://img.shields.io/packagist/v/Locastic/zxcvbn-password-validator.svg" />
     </a>
     <a href="https://travis-ci.org/Locastic/ZxcvbnPasswordValidator" title="Build status" target="_blank">
-        <img src="https://img.shields.io/travis/Locastic/SyliusHTPayWayPlugin/master.svg" />
+        <img src="https://img.shields.io/travis/Locastic/ZxcvbnPasswordValidator/master.svg" />
     </a>
     <a href="https://scrutinizer-ci.com/g/Locastic/ZxcvbnPasswordValidator/" title="Scrutinizer" target="_blank">
-        <img src="https://img.shields.io/scrutinizer/g/Locastic/SyliusHTPayWayPlugin.svg" />
+        <img src="https://img.shields.io/scrutinizer/g/Locastic/ZxcvbnPasswordValidator.svg" />
     </a>
     <a href="https://packagist.org/packages/locastic/zxcvbn-password-validator" title="Total Downloads" target="_blank">
-        <img src="https://poser.pugx.org/locastic/sylius-ht-payway-plugin/downloads" />
+        <img src="https://poser.pugx.org/locastic/zxcvbn-password-validator/downloads" />
     </a>
 </h1>
 
