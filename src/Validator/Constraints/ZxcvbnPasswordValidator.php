@@ -56,7 +56,7 @@ class ZxcvbnPasswordValidator extends ConstraintValidator
                 '{{ current_entropy }}' => $strength['entropy'],
             ];
 
-            $this->context->buildViolation($constraint->message)
+            $this->context->buildViolation($this->translator->trans($constraint->message, $parameters, 'validators'))
                 ->setParameters($parameters)
                 ->addViolation();
         }
