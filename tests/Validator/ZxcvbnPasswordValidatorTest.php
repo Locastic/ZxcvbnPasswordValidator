@@ -42,7 +42,7 @@ class ZxcvbnPasswordValidatorTest extends ConstraintValidatorTestCase
             '{{ current_entropy }}' => 0.0,
         ];
 
-        $this->buildViolation($this->translator->trans($constraint->message, $parameters, 'validators'))
+        $this->buildViolation('password_too_weak')
             ->setParameters($parameters)
             ->assertRaised();
     }
