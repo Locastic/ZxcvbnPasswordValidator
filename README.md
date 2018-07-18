@@ -26,6 +26,8 @@ Zxcvbn-PHP is a password strength estimator using pattern matching and minimum e
 Zxcvbn-PHP is based on the Javascript zxcvbn project from Dropbox and @lowe. "zxcvbn" is bad password, just like 
 "qwerty" and "123456".
 
+More info [here](https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/).
+
 >zxcvbn attempts to give sound password advice through pattern matching and conservative entropy calculations. 
 It finds 10k common passwords, common American names and surnames, common English words, and common patterns like dates, 
 repeats (aaa), sequences (abcd), and QWERTY patterns.
