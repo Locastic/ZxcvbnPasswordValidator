@@ -4,7 +4,7 @@
         <body>
             <trans-unit id="1">
                 <source>password_too_weak</source>
-                <target>Die Passwortstärke muss mindestens "{{ min_strength }}" sein, die aktuelle Stärke ist "{{ current_strength }}".</target>
+                <target>Die Passwortstärke muss mindestens "{{ min_entropy }}" sein, die aktuelle Stärke ist "{{ current_entropy }}".</target>
             </trans-unit>
         </body>
     </file>
