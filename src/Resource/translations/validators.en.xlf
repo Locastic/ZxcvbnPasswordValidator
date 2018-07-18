@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>password_too_weak</source>
+                <target>Password needs to be at least at strength level "{{ min_strength }}", current level is "{{ current_strength }}".</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

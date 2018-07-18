@@ -1,0 +1,50 @@
+{
+  "name": "locastic/zxcvbn-password-validator",
+  "description": "Realistic Symfony password strength validator based on Zxcvbn PHP ",
+  "keywords": ["password", "validator", "symfony", "php", "dropbox", "zxcvb"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Locastic",
+      "email": "info@locastic.com",
+      "homepage": "https://www.locastic.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "bjeavons/zxcvbn-php": "^0.3.0",
+    "psr/container": "^1.0",
+    "psr/log": "^1.0",
+    "symfony/validator": "^3.3.6 || ^4.0"
+  },
+  "require-dev": {
+    "symfony/config": "^3.3.6 || ^4.0",
+    "symfony/console": "^3.3.6 || ^4.0",
+    "symfony/phpunit-bridge": "^3.3.6 || ^4.0",
+    "php-http/httplug": "^1.1",
+    "guzzlehttp/psr7": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Locastic\\Component\\ZxcvbnPasswordValidator\\": "src/"
+    },
+    "exclude-from-classmap": ["test/"]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Locastic\\Component\\ZxcvbnPasswordValidator\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  }
+}
